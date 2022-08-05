@@ -1,0 +1,13 @@
+.navbar-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+}
+.navbar-content-container{
+    background: #1e1e1e;
+}

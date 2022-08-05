@@ -1,0 +1,116 @@
+.movies-container{
+    /* height: 100vh; */
+    background-color: #292929;
+    color: white;
+    
+}
+.movies-top-container{
+    /* border: 3px solid rgb(30, 0, 255); */
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+
+.movies-bottom-container{
+    display: flex;
+    justify-content: space-around;
+}
+.movies-list-container{
+    /* border: 1px solid black; */
+    /* border-left: 1px solid black;
+    /* border-bottom: 1px solid black; */ 
+    /* width: 55%; */
+    /* background: #1e1e1e; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movies-mid-container{
+    width: 60%;
+}
+.searchBar-container{
+    width: 40%;
+    min-width: 300px;
+    margin: 0 auto;
+    /* border-bottom: none; */
+    padding: 1em;
+    /* background: #1e1e1e; */
+}
+
+
+
+.movies-left-container{
+    width: 22%;
+    text-align: center;
+}
+.movies-left-container ul{
+    list-style: none;
+    font-size: 1.4rem;
+}
+.movies-left-container ul li{
+    margin: 1.5em 0;
+    /* background: #1e1e1e; */
+    padding: .6em 0;
+    border-bottom: 1px solid gray;
+}
+.movies-left-container ul li:hover{
+    background-color: grey;
+}
+.movies-left-container ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.movies-right-container{
+    /* border: 3px solid rgb(9, 10, 15); */
+    width: 15%;
+}
+.movies-mid-container .card{
+    /* border: 3px solid rgb(18, 18, 23); */
+    margin: 1em;
+    color: black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 15rem !important;
+}
+.movies-mid-container .card img{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+@media (max-width: 1380px) {
+    .movies-mid-container .card{
+        width: 9rem !important;
+    }
+}
+@media (max-width: 900px) {
+    .movies-mid-container .card{
+        width: 7rem !important;
+    }
+    .movies-mid-container .card-body h5{
+        font-size: 9px;
+    }
+    .movies-mid-container .card-body p{
+        font-size: 9px;
+    }
+    .movies-mid-container .card-body a{
+        width: 100px !important;
+    }
+}
+@media (max-width: 730px) {
+    .movies-mid-container .card{
+        width: 5rem !important;
+    }
+    .movies-mid-container .card-body h5{
+        font-size: 6px;
+    }
+    .movies-mid-container .card-body p{
+        font-size: 5px;
+    }
+    .movies-mid-container .card-body a{
+        width: 80px !important;
+    }
+}
